@@ -1,6 +1,6 @@
 module "nginx" {
   source  = "app.terraform.io/testsam1/nginx/onpremise"
-  version = "1.0.2"
+  version = "1.0.3"
 
-  numreplicas = 1
+  numreplicas = 2
 }
